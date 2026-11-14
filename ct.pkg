@@ -1,0 +1,19 @@
+# llm-sse - OpenAI / Anthropic compatible streaming chat decoding.
+#
+# Responsibility: turn an already-opened response stream into four kinds of
+# incremental events (text, tool_call, done, error) and merge tool_call
+# fragments by index. Transport, SSE framing and JSON lexing belong to the
+# dependencies; see docs/requirements.md §3 and §5.
+#
+# The dep lines are intentionally unversioned: none of the three packages has
+# a released surface this package can consume yet (http/src is empty, sse has
+# no ct.pkg, json exports nothing across units). See docs/requirements.md §5.
+name = llm-sse
+version = 0.1.0
+licence = MIT
+dep = http
+dep = sse
+dep = json
+# 0.42.0 = method-level visibility (Phase 42), needed to keep helpers off the
+# generated header. Re-verify this floor when implementation starts.
+requires = ct >= 0.42.0
