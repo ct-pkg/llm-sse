@@ -212,4 +212,4 @@
 - phase 卡、roadmap、阶段切分、任务清单：属立项与排期。
 - 版本号移动、tag、发布：本轮只声明 0.1.0，未立项不触发 6.7。
 - 实现代码与测试夹具：本轮只做需求。
-- 包外承接事项（`publisher` / `ns-root`、依赖全名、公开单元占位）与待决项：见 [backlog.md](backlog.md)。
+- 包清单与发布面待办（`publisher` / `ns-root`、依赖全名、公开单元占位）与待决项：见 [backlog.md](backlog.md)。
