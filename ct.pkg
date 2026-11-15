@@ -9,6 +9,8 @@
 # a released surface this package can consume yet (http/src is empty, sse has
 # no ct.pkg, json exports nothing across units). See docs/requirements.md §5.
 name = llm-sse
+publisher = ct
+ns-root = .
 version = 0.1.0
 licence = MIT
 dep = http
