@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | 2026-11-14 | ct-llm-sse 需求层梳理 | [docs/requirements.md](requirements.md) |
 | 2026-11-15 | 包清单与发布面待办登记（归属、命名空间根、依赖全名、公开单元占位） | [docs/backlog.md](backlog.md) |
+| 2026-11-15 | 包清单待办按现状重判（清单能力已具备，去掉「等能力」口径；依赖侧阻塞改判为可即时核对） | [docs/backlog.md](backlog.md)、[docs/requirements.md](requirements.md) §5 |
 
 ## 约定
 
