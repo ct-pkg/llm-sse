@@ -3,6 +3,7 @@
 | 日期 | 会话 / 主题 | 产出 |
 | --- | --- | --- |
 | 2026-11-14 | ct-llm-sse 需求层梳理 | [docs/requirements.md](requirements.md) |
+| 2026-11-15 | 包外事项承接（EXT-LLM-01/02）与待决项登记 | [docs/backlog.md](backlog.md) |
 
 ## 约定
 
