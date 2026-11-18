@@ -13,9 +13,10 @@ publisher = ct
 ns-root = .
 version = 0.1.0
 licence = MIT
-dep = http
-dep = sse
-dep = json
-# 0.42.0 = method-level visibility (Phase 42), needed to keep helpers off the
+dep = ct/http@^0.2.0
+dep = ct/sse@^0.11.0
+dep = ct/json@^0.1.1
+# 0.44.1 = latest CT release. The functional floor is still method-level
+# visibility (Phase 42, landed in 0.42.0), needed to keep helpers off the
 # generated header. Re-verify this floor when implementation starts.
-requires = ct >= 0.42.0
+requires = ct >= 0.44.1
